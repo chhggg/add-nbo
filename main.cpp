@@ -19,7 +19,7 @@ int main(int argc, char* argv[]){
     }
 
     ret1 = fread(&a, sizeof(uint32_t), 1, fp1);
-	ret2 = fread(&b, sizeof(uint32_t), 1, fp2);
+    ret2 = fread(&b, sizeof(uint32_t), 1, fp2);
 
     if (ret1 != 1 || ret2 != 1 ){
         printf("fread error\n");
